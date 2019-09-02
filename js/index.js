@@ -51,6 +51,7 @@ navImage.setAttribute('src', siteContent["nav"]['img-src']);
 let ctaImage = document.getElementById('cta-img');
 ctaImage.setAttribute('src', siteContent["cta"]['img-src']);
 
+// Middle Image
 let middleImage = document.getElementById('middle-img');
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
