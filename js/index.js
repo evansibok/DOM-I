@@ -74,6 +74,8 @@ let newAnchor = document.createElement("a");
 // Add content to new anchor tag and append tag
 newAnchor.textContent = "Anchor1";
 newAnchor.style.color = "green";
+
+// Append second anchor tag to navigation
 nav.appendChild(newAnchor);
 
 // Created second anchor tag to prepend
