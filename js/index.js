@@ -74,6 +74,7 @@ navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
 let h1 = document.querySelector("h1");
 h1.textContent = siteContent["cta"]["h1"];
 
+// CTA Button Selection
 let ctaButton = document.querySelector("button");
 ctaButton.textContent = siteContent["cta"]["button"];
 
