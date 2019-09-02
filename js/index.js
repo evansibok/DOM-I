@@ -56,6 +56,7 @@ let middleImage = document.getElementById('middle-img');
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
 // Nav Links Selection
+let nav = document.querySelector("nav");
 let navLinks = document.querySelectorAll("a");
 
 // Nav Links add content
@@ -65,10 +66,7 @@ navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
 navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
 navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
 navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
-// navLinks.classList.add("greenColor");
-
-// let coloredLinks = document.getElementsByClassName("greenColor");
-// coloredLinks.style.color = "green";
+navLinks
 
 // h1 Selection
 let h1 = document.querySelector("h1");
