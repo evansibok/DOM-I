@@ -65,11 +65,12 @@ navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
 navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
 navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
 navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
-navLinks.classList.add("greenColor");
+// navLinks.classList.add("greenColor");
 
-let coloredLinks = document.getElementsByClassName("greenColor");
-coloredLinks.style.color = "green";
+// let coloredLinks = document.getElementsByClassName("greenColor");
+// coloredLinks.style.color = "green";
 
+// h1 Selection
 let h1 = document.querySelector("h1");
 h1.textContent = siteContent["cta"]["h1"];
 
