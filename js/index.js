@@ -57,6 +57,8 @@ middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
 // Nav Links Selection
 let navLinks = document.querySelectorAll("a");
+
+// Nav Links add content
 navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
 navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
 navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
