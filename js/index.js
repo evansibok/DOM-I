@@ -70,7 +70,7 @@ navLinks
 
 // 
 let newAnchor = document.createElement("a");
-
+newAnchor.textContent = "Anchor1";
 
 // h1 Selection
 let h1 = document.querySelector("h1");
