@@ -78,6 +78,7 @@ h1.textContent = siteContent["cta"]["h1"];
 let ctaButton = document.querySelector("button");
 ctaButton.textContent = siteContent["cta"]["button"];
 
+// h4 ELements Selection
 let h4 = document.querySelectorAll("h4");
 h4[0].textContent = siteContent["main-content"]["features-h4"];
 
