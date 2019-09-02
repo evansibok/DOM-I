@@ -91,21 +91,15 @@ h4[5].textContent = siteContent["contact"]["contact-h4"];
 
 // Paragraphs tags selection
 let p = document.querySelectorAll("p");
+
+// Paragraphs tags contents added
 p[0].textContent = siteContent["main-content"]["features-content"];
-
 p[1].textContent = siteContent["main-content"]["about-content"];
-
 p[2].textContent = siteContent["main-content"]["product-content"];
-
 p[3].textContent = siteContent["main-content"]["vision-content"];
-
 p[4].textContent = siteContent["main-content"]["features-content"];
-
 p[5].textContent = siteContent["contact"]["address"];
-
 p[6].textContent = siteContent["contact"]["phone"];
-
 p[7].textContent = siteContent["contact"]["email"];
-
 p[8].textContent = siteContent["footer"]["copyright"];
 
