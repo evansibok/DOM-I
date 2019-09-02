@@ -68,6 +68,10 @@ navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
 navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
 navLinks
 
+// 
+let newAnchor = document.createElement("a");
+
+
 // h1 Selection
 let h1 = document.querySelector("h1");
 h1.textContent = siteContent["cta"]["h1"];
