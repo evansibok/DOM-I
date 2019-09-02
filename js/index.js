@@ -90,7 +90,8 @@ nav.prepend(newAnchor2);
 
 // h1 Selection
 let h1 = document.querySelector("h1");
-h1.textContent = siteContent["cta"]["h1"];
+// h1.textContent = siteContent["cta"]["h1"];
+h1.innerHTML = "DOM<br> Is<br> Awesome";
 
 // CTA Button Selection
 let ctaButton = document.querySelector("button");
