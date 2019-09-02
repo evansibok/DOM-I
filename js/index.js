@@ -80,7 +80,9 @@ let newAnchor2 = document.createElement("a");
 
 // Add content to second anchor tag and prepend tag
 newAnchor2.textContent = "Anchor2";
-// nav.prepend(newAnchor);
+
+// Prepend second anchor tag to navigation
+nav.prepend(newAnchor2);
 
 // h1 Selection
 let h1 = document.querySelector("h1");
