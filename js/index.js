@@ -71,6 +71,7 @@ navLinks
 // Create new Anchor tag to append and prepend
 let newAnchor = document.createElement("a");
 
+// Add content to new anchor tag and append tag
 newAnchor.textContent = "Anchor1";
 nav.appendChild(newAnchor);
 
