@@ -42,15 +42,14 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 // Solutions
-// Elements Selection
-let logoImage = document.getElementById('#logo-img');
-let ctaImage = document.getElementById('#cta-img');
-let middleImage = document.getElementById('#middle-img');
+let navImage = document.getElementById('logo-img');
+navImage.setAttribute('src', siteContent["nav"]['img-src']);
 
+let ctaImage = document.getElementById('cta-img');
+ctaImage.setAttribute('src', siteContent["cta"]['img-src']);
 
-// Tasks
-logoImage.setAttribute('img-src');
+let middleImage = document.getElementById('middle-img');
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-ctaImage.setAttribute('img-src');
-
-middleImage.setAttribute('img-src');
+let nav = document.querySelector('nav');
+nav.classList.add
