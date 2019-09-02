@@ -78,7 +78,8 @@ nav.appendChild(newAnchor);
 // Created second anchor tag to prepend
 let newAnchor2 = document.createElement("a");
 
-// newAnchor.textContent = "Anchor2";
+// Add content to second anchor tag and prepend tag
+newAnchor2.textContent = "Anchor2";
 // nav.prepend(newAnchor);
 
 // h1 Selection
