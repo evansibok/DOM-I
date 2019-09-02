@@ -47,6 +47,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 let navImage = document.getElementById('logo-img');
 navImage.setAttribute('src', siteContent["nav"]['img-src']);
 
+// CTA Image
 let ctaImage = document.getElementById('cta-img');
 ctaImage.setAttribute('src', siteContent["cta"]['img-src']);
 
