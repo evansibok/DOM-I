@@ -49,8 +49,8 @@ let middleImage = document.getElementById('#middle-img');
 
 
 // Tasks
-logoImage = document.setAttribute('img-src');
+logoImage.setAttribute('img-src');
 
-ctaImage = document.setAttribute('img-src');
+ctaImage.setAttribute('img-src');
 
-middleImage = document.setAttribute('img-src');
+middleImage.setAttribute('img-src');
