@@ -68,12 +68,18 @@ navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
 navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
 navLinks
 
-// Create new Anchor tag to append and prepend
+// Create new Anchor tag to append
 let newAnchor = document.createElement("a");
 
 // Add content to new anchor tag and append tag
 newAnchor.textContent = "Anchor1";
 nav.appendChild(newAnchor);
+
+// Created second anchor tag to prepend
+let newAnchor2 = document.createElement("a");
+
+// newAnchor.textContent = "Anchor2";
+// nav.prepend(newAnchor);
 
 // h1 Selection
 let h1 = document.querySelector("h1");
