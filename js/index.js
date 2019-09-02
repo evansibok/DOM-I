@@ -55,6 +55,7 @@ ctaImage.setAttribute('src', siteContent["cta"]['img-src']);
 let middleImage = document.getElementById('middle-img');
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
+// Nav Links Selection
 let navLinks = document.querySelectorAll("a");
 navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
 navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
