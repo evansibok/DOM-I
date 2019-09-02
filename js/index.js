@@ -84,6 +84,11 @@ newAnchor2.textContent = "Anchor2";
 // Prepend second anchor tag to navigation
 nav.prepend(newAnchor2);
 
+// Color navigation links to green
+navLinks.forEach(function(ele){
+  ele.style.color = "green";
+})
+
 // h1 Selection
 let h1 = document.querySelector("h1");
 h1.textContent = siteContent["cta"]["h1"];
