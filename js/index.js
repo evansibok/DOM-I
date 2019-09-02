@@ -42,3 +42,15 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 // Solutions
+// Elements Selection
+let logoImage = document.getElementById('#logo-img');
+let ctaImage = document.getElementById('#cta-img');
+let middleImage = document.getElementById('#middle-img');
+
+
+// Tasks
+logoImage = document.setAttribute('img-src');
+
+ctaImage = document.setAttribute('img-src');
+
+middleImage = document.setAttribute('img-src');
