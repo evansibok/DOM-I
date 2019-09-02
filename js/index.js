@@ -73,6 +73,7 @@ let newAnchor = document.createElement("a");
 
 // Add content to new anchor tag and append tag
 newAnchor.textContent = "Anchor1";
+newAnchor.style.color = "green";
 nav.appendChild(newAnchor);
 
 // Created second anchor tag to prepend
@@ -83,11 +84,6 @@ newAnchor2.textContent = "Anchor2";
 
 // Prepend second anchor tag to navigation
 nav.prepend(newAnchor2);
-
-// Color navigation links to green
-navLinks.forEach(function(ele){
-  ele.style.color = "green";
-})
 
 // h1 Selection
 let h1 = document.querySelector("h1");
@@ -122,3 +118,7 @@ p[6].textContent = siteContent["contact"]["phone"];
 p[7].textContent = siteContent["contact"]["email"];
 p[8].textContent = siteContent["footer"]["copyright"];
 
+// Color navigation links to green
+navLinks.forEach(function (ele) {
+  ele.style.color = "green";
+});
