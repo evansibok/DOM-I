@@ -39,4 +39,90 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+
+
+// SOLUTIONS
+
+// Nav Logo
+let navImage = document.getElementById('logo-img');
+navImage.setAttribute('src', siteContent["nav"]['img-src']);
+
+// CTA Image
+let ctaImage = document.getElementById('cta-img');
+ctaImage.setAttribute('src', siteContent["cta"]['img-src']);
+
+// Middle Image
+let middleImage = document.getElementById('middle-img');
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+// Nav Links Selection
+let nav = document.querySelector("nav");
+let navLinks = document.querySelectorAll("a");
+
+// Nav Links add content
+navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
+navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
+navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
+navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
+navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
+navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
+
+// Create new Anchor tag to append
+let newAnchor = document.createElement("a");
+
+// Add content to new anchor tag and append tag
+newAnchor.textContent = "Anchor1";
+newAnchor.style.color = "green";
+
+// Append second anchor tag to navigation
+nav.appendChild(newAnchor);
+
+// Created second anchor tag to prepend
+let newAnchor2 = document.createElement("a");
+
+// Add content to second anchor tag and prepend tag
+newAnchor2.textContent = "Anchor2";
+newAnchor2.style.color = "green";
+
+// Prepend second anchor tag to navigation
+nav.prepend(newAnchor2);
+
+// h1 Selection
+let h1 = document.querySelector("h1");
+// h1.textContent = siteContent["cta"]["h1"];
+h1.innerHTML = "DOM<br> Is<br> Awesome";
+
+// CTA Button Selection
+let ctaButton = document.querySelector("button");
+ctaButton.textContent = siteContent["cta"]["button"];
+
+// h4 ELements Selection
+let h4 = document.querySelectorAll("h4");
+
+// h4 Elements contents added
+h4[0].textContent = siteContent["main-content"]["features-h4"];
+h4[1].textContent = siteContent["main-content"]["about-h4"];
+h4[2].textContent = siteContent["main-content"]["services-h4"];
+h4[3].textContent = siteContent["main-content"]["product-h4"];
+h4[4].textContent = siteContent["main-content"]["vision-h4"];
+h4[5].textContent = siteContent["contact"]["contact-h4"];
+
+// Paragraphs tags selection
+let p = document.querySelectorAll("p");
+
+// Paragraphs tags contents added
+p[0].textContent = siteContent["main-content"]["features-content"];
+p[1].textContent = siteContent["main-content"]["about-content"];
+p[2].textContent = siteContent["main-content"]["product-content"];
+p[3].textContent = siteContent["main-content"]["vision-content"];
+p[4].textContent = siteContent["main-content"]["features-content"];
+p[5].textContent = siteContent["contact"]["address"];
+p[6].textContent = siteContent["contact"]["phone"];
+p[7].textContent = siteContent["contact"]["email"];
+p[8].textContent = siteContent["footer"]["copyright"];
+
+// Color navigation links to green
+navLinks.forEach(function (ele) {
+  ele.style.color = "green";
+});
